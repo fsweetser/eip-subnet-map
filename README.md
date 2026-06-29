@@ -4,6 +4,7 @@ will produce and generate an HTML table of subnet utilization on stdout.
 
 Please note that the block argument must point at a non-terminal subnet object that already exists in IPAM.
 
+```
 usage: eip-subnet-map.py [-h] -s SERVER -u USERNAME -b BLOCK [-l LOWERBOUND]
 
 optional arguments:
@@ -16,4 +17,4 @@ optional arguments:
                         Starting IP address of the block to use as the root
   -l LOWERBOUND, --lowerbound LOWERBOUND
                         CIDR mask of the smallest subnets to display (default 24)
-
+```
